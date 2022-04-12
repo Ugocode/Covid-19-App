@@ -48,11 +48,11 @@ class _FrontScreenState extends State<FrontScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.local_hospital),
-            label: 'Hospital',
+            label: 'Hospitals',
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.amber[800],
+        selectedItemColor: const Color.fromARGB(249, 80, 71, 181),
         onTap: _onItemTapped,
       ),
       body: ListView(
@@ -269,7 +269,7 @@ class _FrontScreenState extends State<FrontScreen> {
                 height: 142,
                 width: 350,
                 decoration: BoxDecoration(
-                    color: Colors.blue,
+                    color: const Color.fromARGB(249, 80, 71, 181),
                     borderRadius: BorderRadius.circular(20)),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -305,7 +305,7 @@ class _FrontScreenState extends State<FrontScreen> {
                                 MaterialPageRoute(
                                     builder: (context) => const HomePage())),
                             child: Card(
-                              color: Colors.green,
+                              color: Colors.blue,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(50.0),
                               ),
