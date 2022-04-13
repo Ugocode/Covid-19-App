@@ -2,7 +2,7 @@ import 'package:coronavirus_app/Repositories/data_repository.dart';
 import 'package:coronavirus_app/app/services/api.dart';
 import 'package:coronavirus_app/app/services/api_service.dart';
 import 'package:coronavirus_app/app/services/data_catch_service.dart';
-import 'package:coronavirus_app/screens/front_screen.dart';
+import 'package:coronavirus_app/screens/navigator_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -74,7 +74,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const FrontScreen(),
+        home: const NavigatorScreen(),
       ),
     );
   }
