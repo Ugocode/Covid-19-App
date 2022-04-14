@@ -55,6 +55,13 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
+//dispose this if done:
+  @override
+  void dispose() {
+    super.dispose();
+    _updateData();
+  }
+
   @override
   Widget build(BuildContext context) {
 //format the date with :
