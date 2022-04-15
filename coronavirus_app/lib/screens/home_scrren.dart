@@ -29,6 +29,7 @@ class _HomePageState extends State<HomePage> {
     _endpointsData = dataRepository.getAllEndpointsCachedData();
     //to get the data from the API service:
     _updateData();
+   
   }
 
 //Now We use Provider to get the data to the home page:
@@ -55,12 +56,12 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
-// //dispose this if done:
-//   @override
-//   void dispose() {
-//     super.dispose();
-//     _updateData();
-//   }
+//dispose this if done:
+  // @override
+  // void dispose() {
+  //   _updateData();
+  //   super.dispose();
+  // }
 
   @override
   Widget build(BuildContext context) {
