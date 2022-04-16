@@ -50,6 +50,7 @@ class _HospitalsScreenState extends State<HospitalsScreen> {
                     decoration: BoxDecoration(
                         color: Colors.blue,
                         borderRadius: BorderRadius.circular(5)),
+                    child: const Text('Pablo Hospital'),
                   ),
                 ),
                 Padding(
@@ -60,6 +61,7 @@ class _HospitalsScreenState extends State<HospitalsScreen> {
                     decoration: BoxDecoration(
                         color: Colors.blue,
                         borderRadius: BorderRadius.circular(5)),
+                    child: const Text('Julius Ceaser Hospital'),
                   ),
                 ),
                 Padding(
@@ -70,6 +72,7 @@ class _HospitalsScreenState extends State<HospitalsScreen> {
                     decoration: BoxDecoration(
                         color: Colors.blue,
                         borderRadius: BorderRadius.circular(5)),
+                    child: const Text('Madela Hospital'),
                   ),
                 ),
               ],
